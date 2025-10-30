@@ -1,40 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🧩 Projeto CRUD Full Stack com Next.js + Node.js + TailwindCSS
 
-## Getting Started
+Um projeto **Full Stack simples e funcional**, criado com **Next.js 16**, **Tailwind CSS v4** e **Node.js**, implementando um **CRUD completo** (Create, Read, Update, Delete) com armazenamento em **JSON local**.  
 
-First, run the development server:
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js 16** — Framework React fullstack moderno  
+- **React 19** — Biblioteca base para a interface  
+- **Tailwind CSS v4** — Estilização rápida e responsiva  
+- **Node.js** — Ambiente de execução do backend  
+- **JSON local** — Simulação de banco de dados  
+- **PostCSS + @tailwindcss/postcss** — Processamento de CSS moderno  
+
+---
+
+## 📦 Instalação e Execução
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/Carlamagalhaes1/Gerenciador-de-itens.git
+cd nome-do-projeto
+```
+
+### 2️⃣ Instalar as dependências
+
+```bash
+npm install
+```
+
+### 3️⃣ Rodar o projeto em ambiente de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> O projeto estará disponível em:  
+> 👉 http://localhost:3000
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🧱 Estrutura do Projeto
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```
+📂 projeto-crud
+ ┣ 📂 app
+ ┃ ┣ 📂 api
+ ┃ ┃ ┣ 📜 route.js      # Endpoints de CRUD (GET, POST, PUT, DELETE)
+ ┃ ┣ 📜 page.jsx         # Página principal com a interface CRUD
+ ┣ 📂 data
+ ┃ ┗ 📜 db.json          # “Banco de dados” local em JSON
+ ┣ 📂 styles
+ ┃ ┗ 📜 globals.css      # Estilos globais com Tailwind
+ ┣ 📜 postcss.config.cjs # Configuração do PostCSS
+ ┣ 📜 tailwind.config.js # Configuração do Tailwind CSS
+ ┣ 📜 package.json
+ ┗ 📜 README.md
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Comandos Úteis
 
-To learn more about Next.js, take a look at the following resources:
+| Comando | Descrição |
+|----------|------------|
+| `npm run dev` | Inicia o servidor de desenvolvimento |
+| `npm run build` | Gera a versão de produção |
+| `npm start` | Inicia o servidor após o build |
+| `npm run lint` | Executa a verificação de código |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧮 Funcionalidades do CRUD
 
-## Deploy on Vercel
+- ➕ **Cadastrar** novos itens  
+- 📋 **Listar** todos os registros  
+- ✏️ **Editar** informações existentes  
+- ❌ **Excluir** registros  
+- 💾 Dados armazenados em `data/db.json`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 🎨 Interface
+
+Construída com **Tailwind CSS**, garantindo:
+- Design limpo e responsivo  
+- Cores suaves e modernas  
+- Feedback visual nas ações de CRUD  
+
+---
+
+
+---
+
+## 📄 Licença
+
+Este projeto é de código aberto e pode ser usado para estudos, testes ou portfólios.  
+Sinta-se livre para aprimorar e compartilhar!
+
+---
